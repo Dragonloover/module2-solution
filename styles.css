@@ -1,0 +1,86 @@
+* {
+  	box-sizing: border-box;
+}
+
+
+/**BASE STYLES**/
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.row{
+	width: 100%;
+}
+p{
+  	width: 90%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-top: 15px;
+}
+
+.col-lg-4 {
+	position: relative;
+}	
+
+section{
+	margin: 10px;
+	border: 1px solid black;
+	background-color: gray;
+}
+
+h2{
+	float:right;
+	right: 10px;
+	width: 130px;
+	margin-top: -2px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1em;
+}
+
+#t-chicken{
+	background-color: purple;
+}
+
+#t-beef{
+	background-color: orange;
+}
+
+#t-sushi{
+	background-color: blue;
+}
+
+/**Media querys**/
+/**Desktop**/
+@media (min-width: 992px) {
+
+	.col-lg-4 {
+		width: 33%;
+		float: left;
+	}
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-md-6, .col-md-12{
+		float: left;
+	}	
+
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+/**Mobile**/
+@media (max-width: 767px){
+
+	.col-sm-12{
+		width: 100%;
+		float: left;
+	}
+}
+
+
